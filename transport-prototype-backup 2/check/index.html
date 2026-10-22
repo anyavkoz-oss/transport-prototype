@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#ffffff">
+  <title>Проверка прототипа</title>
+  <style>
+    @font-face{font-family:YSText;src:url('../assets/text.ttf') format('truetype');font-weight:400;font-display:swap}
+    @font-face{font-family:YSDisplay;src:url('../assets/display.ttf') format('truetype');font-weight:800;font-display:swap}
+    *{box-sizing:border-box}
+    html,body{margin:0;min-height:100%;background:#e9ebe8;color:#21201f}
+    body{display:flex;justify-content:center;font-family:YSText,Arial,sans-serif}
+    main{width:393px;min-height:100vh;min-height:100svh;background:white;border:9px solid #000;border-radius:49px;display:flex;align-items:center;justify-content:center;padding:16px 16px 76px;overflow:hidden}
+    .message{width:100%;display:flex;flex-direction:column;align-items:center;text-align:center}
+    img{display:block;width:200px;height:200px;object-fit:contain;flex-shrink:0}
+    h1{margin:0;font-family:YSDisplay,'Arial Narrow',Arial,sans-serif;font-size:34px;line-height:34px;font-weight:800}
+    p{max-width:343px;margin:8px 0 0;font-size:16px;line-height:19px;font-weight:400}
+    @media(max-width:480px){html,body{background:white}main{width:100%;border:0;border-radius:0;padding-top:max(16px,env(safe-area-inset-top));padding-bottom:max(76px,env(safe-area-inset-bottom))}}
+  </style>
+</head>
+<body>
+  <main>
+    <div class="message">
+      <img src="../assets/access-check-heart.png" alt="" width="200" height="200">
+      <h1>Ура, всё открылось!</h1>
+      <p>Это тестовый экран. Скажите, если видите это сообщение</p>
+    </div>
+  </main>
+</body>
+</html>
